@@ -1,0 +1,26 @@
+form {
+    background-color: lightblue;
+    width: 50%;
+    height: 400px;
+}
+
+.lbl-inp-container {
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+#submit-container {
+    text-align: center;
+}
+
+#demo{
+    text-align: center;
+}
+
+#demo02{
+    height: 100px;
+    width: 100px;
+    background-color: darkslateblue;
+    margin-right: auto;
+    margin-left: auto;
+}

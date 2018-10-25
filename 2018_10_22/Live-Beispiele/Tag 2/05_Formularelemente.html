@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="05_Formularelemente.css">
+    <title>Formular</title>
+
+</head>
+
+<body>
+
+
+<!-- leonardh@ppedv.de -->
+
+    <form action="#">
+        <h1>Mein tolles Formular</h1>
+        <div class="lbl-inp-container">
+            <!-- left-aligned label -->
+            <label for="first-name">Vorname:</label>
+            <input type="text" id="first-name" class="my-inputs" name="first-name" placeholder="James">
+        </div>
+        <div class="lbl-inp-container">
+            <label for="last-name">Nachname:</label>
+            <input type="text" id="last-name" class="my-inputs" name="last-name" placeholder="Bond">
+        </div>
+
+        <div class="lbl-inp-container">
+            <label for="pw">Passwort:</label>
+            <input type="password" id="pw" class="my-inputs" name="pw">
+        </div>
+        <div class="lbl-inp-container">
+            <input type="checkbox" name="extras">
+            <span>Mais</span>
+        </div>
+        <div class="lbl-inp-container">
+            <input type="checkbox" name="extras">
+            <span>Rucola</span>
+        </div>
+        <div class="lbl-inp-container">
+            <input type="checkbox" name="extras">
+            <span>Salami</span>
+        </div>
+        <div class="lbl-inp-container">
+            <input type="checkbox" name="extras">
+            <span>Paprika</span>
+        </div>
+        <hr>
+        <div class="lbl-inp-container">
+            <input type="radio" name="pizzas" checked>
+            <span>Margherita</span>
+        </div>
+        <div class="lbl-inp-container">
+            <input type="radio" name="pizzas">
+            <span>Tonno</span>
+        </div>
+        <div class="lbl-inp-container">
+            <input type="radio" name="pizzas">
+            <span>Della Casa</span>
+        </div>
+
+
+
+        <div id="submit-container" class="lbl-inp-container">
+            <input type="submit" value="Abschicken">
+        </div>
+
+
+
+        <div id="demo" class="lbl-inp-container">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet hic consectetur ipsa consequuntur eius
+            molestiae maxime impedit pariatur quo blanditiis?
+        </div>
+
+        <div id="demo02"></div>
+    </form>
+
+</body>
+
+</html>

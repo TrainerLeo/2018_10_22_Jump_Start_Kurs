@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inline-block</title>
+    <style>
+
+        label{
+            /* background-color: aqua; */
+        }
+        .lbl-inline{
+            width: 100px; /* funktioniert NICHT mit display: inline!!! */
+            display: inline;
+        }
+
+        .lbl-inp-container{
+            margin-bottom: 10px;
+        }
+
+        .lbl-block{
+            display: block;
+            width: 100px;
+        }
+
+        .lbl-inline-block{
+            display: inline-block;
+            width: 80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Block-Darstellung</h1>
+    <div class="lbl-inp-container">
+        <!-- top-aligned label -->
+        <label for="first-name" class="lbl-inline">Vorname:</label>
+        <input type="text" id="first-name" class="my-inputs" name="first-name" placeholder="James">
+    </div>
+    <div class="lbl-inp-container">
+        <label for="last-name" class="lbl-inline">Nachname:</label>
+        <input type="text" id="last-name" class="my-inputs" name="last-name" placeholder="Bond">
+    </div>
+    <h1>Block-Darstellung</h1>
+    <div class="lbl-inp-container">
+        <label for="first-name" class="lbl-block">Vorname:</label>
+        <input type="text" id="first-name" class="my-inputs" name="first-name" placeholder="James">
+    </div>
+    <div class="lbl-inp-container">
+        <label for="last-name" class="lbl-block">Nachname:</label>
+        <input type="text" id="last-name" class="my-inputs" name="last-name" placeholder="Bond">
+    </div>
+    <h1>Inline-Block-Darstellung</h1>
+    <div class="lbl-inp-container">
+        <label for="first-name" class="lbl-inline-block">Vorname:</label>
+        <input type="text" id="first-name" class="my-inputs" name="first-name" placeholder="James">
+    </div>
+    <div class="lbl-inp-container">
+        <label for="last-name" class="lbl-inline-block">Nachname:</label>
+        <input type="text" id="last-name" class="my-inputs" name="last-name" placeholder="Bond">
+    </div>
+</body>
+
+</html>

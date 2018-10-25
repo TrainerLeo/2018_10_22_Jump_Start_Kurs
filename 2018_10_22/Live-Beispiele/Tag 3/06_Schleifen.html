@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Schleifen</title>
+    <style>
+        #demo01, #demo02 {
+            border: 2px solid black;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="demo01"></div>
+    <div id="demo02"></div>
+
+
+    <script defer>
+
+        var i = 0;
+
+
+        /* While-Schleife */
+
+        while (i < 10) {
+            document.getElementById('demo01').innerHTML += (i + 1) + ". text <br>";
+            i++;
+        }
+
+        var j;
+
+        /* For-Schleife */
+
+        for (j = 20; j > 10; j--) {
+            document.getElementById('demo02').innerHTML += (j) + ". text <br>";
+        }
+
+
+        /* Beispiel */
+        /* 
+        var allMyLinks = document.getElementsByTagName('a');
+
+        for(var i = 0; i < allMyLinks.length; i++){
+            // ganz toller Code
+        }
+        
+        
+        */
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>if-else</title>
+    <style>
+        div{
+            border: 2px solid black;
+            width: 300px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="demo01"></div>
+    <div id="demo02"></div>
+    <div id="demo03"></div>
+    <div id="demo04"></div>
+    <button id="btn-ok" onclick="changeBgColor();">OK</button>
+    
+
+    <script>
+        var x = 5;
+
+        function changeBgColor(){
+
+            if(x < 10){
+                document.getElementById('demo01').style.backgroundColor = "rgb(255, 0, 0)";
+            }
+            else if(x === 10){
+                document.getElementById('demo01').style.backgroundColor = "rgb(0, 255, 0)";
+            }
+            else if(x > 10){
+                document.getElementById('demo01').style.backgroundColor = "rgb(0, 0, 255)";
+            }
+            else{
+                document.getElementById('demo01').innerHTML = "FAAAALSCH!";
+            }
+
+        }
+
+
+    </script>
+</body>
+</html>

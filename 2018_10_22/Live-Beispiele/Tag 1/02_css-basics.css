@@ -1,0 +1,71 @@
+body {
+    font-family: Dosis, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+
+/* Typselektor */
+
+p {
+    /* text-decoration: underline; */
+    /* font-style: italic;
+    font-weight: bold; */
+    color: green;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    background-color: burlywood;
+}
+
+div{
+    font-size: 40px;
+    background-color: lightskyblue;
+    width: 450px;
+    height: 150px;
+    text-align: center;
+
+    /* 
+    border-width: 2px;
+    border-style: solid;
+    border-color: aquamarine; 
+    */
+    /* shorthand property - Kurzschreibweise */
+    border: 2px solid darkgreen;
+
+}
+
+h2{
+    font-size: 34px;
+}
+
+code{
+    font-family: Consolas, monospace;
+    background-color: lightgray;
+    color: black;
+}
+
+/* figcaption{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+} */
+
+/* Klassenselektor */
+
+.italic-text-class {
+    font-style: italic;
+    color: blue;
+}
+
+/* ID-Selektor */
+#my-great-id{
+    font-size: 34px;
+    color: orangered;
+}
+
+
+
+.filler{
+    height: 1000px;
+    background-color: aqua;
+}

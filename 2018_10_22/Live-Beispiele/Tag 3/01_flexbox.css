@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+#container{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    /* horizontale Ausrichtung */
+    justify-content: center;
+    /* vertikale Ausrichtung */
+    align-items: center;
+
+
+    height: 100vh;
+}
+
+.flex-item{
+    background-color: royalblue;
+    border: 2px solid midnightblue;
+    width: 150px;
+    height: 150px;
+}
